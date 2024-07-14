@@ -5,7 +5,7 @@ import { MdClose } from "react-icons/md";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const Navbar = () => {
-
+    //33 min done
     const [dropDown, setDropDown] = useState(false);
 
     // const [showDown, setDropDown] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className='lg:w-full w-11/12 mx-auto h-full flex justify-between xl:items-baseline items-center text-[#12222E]'>
                     <div className='flex flex-col gap-y-4'>
                         <span onClick={() => window.location = '/'} className='flex items-center gap-x-2 font-bold text-2xl cursor-pointer'>
-                            <img src="/react.svg" alt="Nike Logo" />
+                            <img src="images/logo.png" alt="Nike Logo" className='w-full' />
                         </span>
                     </div>
                     <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
