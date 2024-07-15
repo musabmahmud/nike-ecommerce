@@ -15,12 +15,12 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='w-full h-24 flex flex-col justify-center items-center lg:bg-transparent lg:absolute fixed z-20'>
+        <nav className='w-full h-24 flex flex-col justify-center items-center lg:bg-white fixed z-20 shadow-sm'>
             <div className='container mx-auto lg:px-6'>
-                <div className='lg:w-full w-11/12 mx-auto h-full flex justify-between xl:items-baseline items-center text-[#12222E]'>
+                <div className='lg:w-full w-11/12 mx-auto h-full flex justify-between items-center text-[#12222E]'>
                     <div className='flex flex-col gap-y-4'>
-                        <span onClick={() => window.location = '/'} className='flex items-center gap-x-2 font-bold text-2xl cursor-pointer'>
-                            <img src="images/logo.png" alt="Nike Logo" className='w-full' />
+                        <span onClick={() => window.location = '/'} className='gap-x-2 cursor-pointer'>
+                            <img src="images/logo.png" alt="Nike Logo" className='object-contain max-w-full h-auto' width="150"/>
                         </span>
                     </div>
                     <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
