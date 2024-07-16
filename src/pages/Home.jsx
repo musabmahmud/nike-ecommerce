@@ -1,3 +1,4 @@
+import About from './About'
 import Header from './Header'
 import Navbar from './Navbar'
 import Products from './Products'
@@ -8,6 +9,7 @@ function Home() {
       <Navbar />
       <Header />
       <Products />
+      <About />
     </div>
   )
 }

@@ -2,7 +2,7 @@ import Card from "../components/Card"
 
 const Products = () => {
     return (
-        <div className="lg:py-24 py-12 px-8 w-full container mx-auto" id="products">
+        <div className="lg:py-24 py-12 px-8 w-full" id="products">
             <main className="container mx-auto max-sm:mt-12">
                 <div className="flex flex-col justify-start gap-5">
                     <h2 className="text-5xl font-polaquin font-bold">

@@ -4,7 +4,7 @@ const Card = (props) => {
 
     return (
         <div className="flex flex-1 flex-col w-full max-sm:w-full hoverBtn">
-            <img className="w-[300px] h-[300px] max-w-full rounded-lg" src={props.img} alt={props.title} />
+            <img className="w-[300px] h-[300px] max-w-full rounded-lg transform transition duration-1000 hover:scale-110 cursor-pointer" src={props.img} alt={props.title} />
             <div className="mt-4 flex justify-start items-center gap-2.5">
                 <FaStar color="gold" size={24} />
                 <FaStar color="gold" size={24} />
