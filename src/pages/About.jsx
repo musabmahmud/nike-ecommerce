@@ -1,5 +1,4 @@
-import React from 'react'
-import { FaCartArrowDown, FaLuggageCart, FaOpencart, FaShippingFast, FaShoppingCart, FaUserLock } from 'react-icons/fa'
+import { FaOpencart, FaShippingFast, FaUserLock } from 'react-icons/fa'
 
 const About = () => {
     return (
@@ -19,12 +18,12 @@ const About = () => {
                     </div>
                 </div>
                 <div className='flex-1 flex justify-center items-center'>
-                    <img className='object-contain max-w-full h-auto rounded-xl transform transition duration-1000 hover:scale-110 cursor-pointer' src="/images/card.jpg" width="570" height="522" alt="Shoe" />
+                    <img className='object-contain max-w-full h-auto rounded-xl transform transition duration-1000 hover:scale-105 cursor-pointer' src="/images/card.jpg" width="570" height="522" alt="Shoe" />
                 </div>
             </section>
             <div className='lg:px-16 px-8 lg:py-24 py-10'>
                 <div className='flex justify-center flex-wrap gap-9'>
-                    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn">
+                    <div className="flex-1 sm:w-[350px] shadow sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn transform transition duration-1000 hover:scale-105 cursor-pointer">
                         <div className="w-11 h-11 justify-center items-center bg-[#ff6452] rounded-full">
                             <FaShippingFast size={40} />
                         </div>
@@ -36,7 +35,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn">
+                    <div className="flex-1 sm:w-[350px] shadow sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn transform transition duration-1000 hover:scale-110 cursor-pointer">
                         <div className="w-11 h-11 justify-center items-center bg-[#ff6452] rounded-full">
                             <FaUserLock size={40} />
                         </div>
@@ -48,7 +47,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn">
+                    <div className="flex-1 sm:w-[350px] shadow sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16 hoverBtn transform transition duration-1000 hover:scale-105 cursor-pointer">
                         <div className="w-11 h-11 justify-center items-center bg-[#b4200f] rounded-full">
                             <FaOpencart size={40} />
                         </div>
